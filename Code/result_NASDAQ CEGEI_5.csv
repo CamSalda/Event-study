@@ -1,0 +1,24 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,Ret_NASDAQ CEGEI,  R-squared:         ,   0.630 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.629 
+Method:          ,Least Squares   ,  F-statistic:       ,   167.9 
+Date:            ,Fri, 03 May 2024,  Prob (F-statistic):,1.39e-136
+Time:            ,15:06:39        ,  Log-Likelihood:    ,  3477.0 
+No. Observations:,  1250          ,  AIC:               ,  -6942. 
+Df Residuals:    ,  1244          ,  BIC:               ,  -6911. 
+Df Model:        ,     5          ,                     ,         
+Covariance Type: ,hc0             ,                     ,         
+                       ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                  , 4.377e-05,    0.000,    0.103, 0.918,   -0.001,    0.001
+Mkt                    ,    1.3803,    0.048,   28.493, 0.000,    1.285,    1.475
+sept_23_to_sept_29_2021,   -0.0051,    0.005,   -0.939, 0.348,   -0.016,    0.006
+dec_16_to_dec_22_2021  ,   -0.0048,    0.009,   -0.505, 0.614,   -0.023,    0.014
+jul_25_to_jul_29_2029  ,    0.0149,    0.006,    2.361, 0.018,    0.003,    0.027
+aug_04_to_aug_10_2022  ,    0.0067,    0.005,    1.363, 0.173,   -0.003,    0.016
+Omnibus:      ,72.821,  Durbin-Watson:     ,   2.034
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  , 286.100
+Skew:         ,-0.020,  Prob(JB):          ,7.48e-63
+Kurtosis:     , 5.343,  Cond. No.          ,    70.9
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)

@@ -1,0 +1,24 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,Ret^SP500_auto  ,  R-squared:         ,   0.442
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.439
+Method:          ,Least Squares   ,  F-statistic:       ,   88.83
+Date:            ,Fri, 03 May 2024,  Prob (F-statistic):,5.33e-80
+Time:            ,15:06:41        ,  Log-Likelihood:    ,  3031.7
+No. Observations:,  1250          ,  AIC:               ,  -6051.
+Df Residuals:    ,  1244          ,  BIC:               ,  -6021.
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,hc0             ,                     ,        
+                       ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                  ,   -0.0012,    0.001,   -1.923, 0.055,   -0.002, 2.26e-05
+Mkt                    ,    1.3454,    0.064,   20.879, 0.000,    1.219,    1.472
+sept_23_to_sept_29_2021,    0.0119,    0.006,    2.076, 0.038,    0.001,    0.023
+dec_16_to_dec_22_2021  ,    0.0061,    0.012,    0.513, 0.608,   -0.017,    0.030
+jul_25_to_jul_29_2029  ,    0.0076,    0.009,    0.853, 0.394,   -0.010,    0.025
+aug_04_to_aug_10_2022  ,   -0.0106,    0.012,   -0.924, 0.355,   -0.033,    0.012
+Omnibus:      ,114.868,  Durbin-Watson:     ,   1.995 
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  , 730.832 
+Skew:         ,-0.059 ,  Prob(JB):          ,2.00e-159
+Kurtosis:     , 6.744 ,  Cond. No.          ,    70.9 
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)

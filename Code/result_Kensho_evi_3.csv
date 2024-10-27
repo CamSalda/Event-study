@@ -1,0 +1,24 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,Ret_Kensho_evi  ,  R-squared:         ,   0.611 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.610 
+Method:          ,Least Squares   ,  F-statistic:       ,   180.1 
+Date:            ,Fri, 03 May 2024,  Prob (F-statistic):,2.41e-144
+Time:            ,15:06:42        ,  Log-Likelihood:    ,  3523.2 
+No. Observations:,  1250          ,  AIC:               ,  -7034. 
+Df Residuals:    ,  1244          ,  BIC:               ,  -7004. 
+Df Model:        ,     5          ,                     ,         
+Covariance Type: ,hc0             ,                     ,         
+                       ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                  ,   -0.0003,    0.000,   -0.794, 0.427,   -0.001,    0.000
+Mkt                    ,    1.2810,    0.043,   29.839, 0.000,    1.197,    1.365
+sept_24_to_sept_28_2021,    0.0069,    0.010,    0.661, 0.508,   -0.013,    0.027
+dec_17_to_dec_21_2021  ,   -0.0051,    0.008,   -0.654, 0.513,   -0.020,    0.010
+jul_26_to_jul_28_2022  ,    0.0056,    0.007,    0.768, 0.443,   -0.009,    0.020
+aug_05_to_aug_09_2022  ,   -0.0127,    0.011,   -1.144, 0.253,   -0.035,    0.009
+Omnibus:      ,113.627,  Durbin-Watson:     ,   2.003
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  , 429.586
+Skew:         , 0.371 ,  Prob(JB):          ,5.21e-94
+Kurtosis:     , 5.774 ,  Cond. No.          ,    70.9
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)

@@ -1,0 +1,24 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,Ret_DJ usogi    ,  R-squared:         ,   0.436
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.434
+Method:          ,Least Squares   ,  F-statistic:       ,   52.22
+Date:            ,Fri, 03 May 2024,  Prob (F-statistic):,2.91e-49
+Time:            ,15:06:40        ,  Log-Likelihood:    ,  3289.5
+No. Observations:,  1250          ,  AIC:               ,  -6567.
+Df Residuals:    ,  1244          ,  BIC:               ,  -6536.
+Df Model:        ,     5          ,                     ,        
+Covariance Type: ,hc0             ,                     ,        
+                       ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const                  ,   -0.0004,    0.001,   -0.836, 0.403,   -0.001,    0.001
+Mkt                    ,    1.0799,    0.068,   15.818, 0.000,    0.946,    1.214
+sept_23_to_sept_29_2021,    0.0177,    0.006,    2.963, 0.003,    0.006,    0.029
+dec_16_to_dec_22_2021  ,    0.0017,    0.005,    0.356, 0.722,   -0.008,    0.011
+jul_25_to_jul_29_2029  ,    0.0115,    0.008,    1.469, 0.142,   -0.004,    0.027
+aug_04_to_aug_10_2022  ,    0.0002,    0.010,    0.023, 0.982,   -0.020,    0.020
+Omnibus:      ,189.166,  Durbin-Watson:     ,   1.926
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,2469.483
+Skew:         ,-0.183 ,  Prob(JB):          ,    0.00
+Kurtosis:     , 9.876 ,  Cond. No.          ,    70.9
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)

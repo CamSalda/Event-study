@@ -1,0 +1,24 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,Ret^SP500_auto  ,  R-squared:         ,   0.442 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.439 
+Method:          ,Least Squares   ,  F-statistic:       ,   196.8 
+Date:            ,Tue, 19 Mar 2024,  Prob (F-statistic):,1.23e-154
+Time:            ,17:01:26        ,  Log-Likelihood:    ,  3031.7 
+No. Observations:,  1250          ,  AIC:               ,  -6051. 
+Df Residuals:    ,  1244          ,  BIC:               ,  -6021. 
+Df Model:        ,     5          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+                       ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                  ,   -0.0012,    0.001,   -1.911, 0.056,   -0.002, 3.14e-05
+Mkt                    ,    1.3454,    0.043,   31.287, 0.000,    1.261,    1.430
+sept_23_to_sept_29_2021,    0.0119,    0.010,    1.234, 0.217,   -0.007,    0.031
+dec_16_to_dec_22_2021  ,    0.0061,    0.010,    0.638, 0.524,   -0.013,    0.025
+jul_25_to_jul_28_2029  ,    0.0076,    0.010,    0.789, 0.430,   -0.011,    0.026
+aug_04_to_aug_10_2022  ,   -0.0106,    0.010,   -1.106, 0.269,   -0.029,    0.008
+Omnibus:      ,114.868,  Durbin-Watson:     ,   1.995 
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  , 730.832 
+Skew:         ,-0.059 ,  Prob(JB):          ,2.00e-159
+Kurtosis:     , 6.744 ,  Cond. No.          ,    70.9 
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
